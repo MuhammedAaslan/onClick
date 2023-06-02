@@ -11,9 +11,11 @@
     height: 25vh;
 }
 
-.btn{
+.btn {
     width: 5rem;
     height: 2rem;
     cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5pz;
 
 }
