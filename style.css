@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .div1 {
     display: flex;
     justify-content: center;
@@ -11,11 +12,62 @@
     height: 25vh;
 }
 
+
 .btn {
+    padding: 2rem;
     width: 5rem;
     height: 2rem;
     cursor: pointer;
     border: 2px solid black;
-    border-radius: 5pz;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 1rem;
+}
+
+
+.btnTwo {
+    padding: 2rem;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+
+}
+
+.btn-1 {
+    background-color: red
+}
+
+.btn-2 {
+    background-color: blue
+}
+
+.btn-3 {
+    background-color: green
+}
+
+.btn-4 {
+    background-color: orange
+}
+
+.btn-5 {
+    background-color: purple
+}
+
+.btn-6 {
+    background-color: black
 }

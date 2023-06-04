@@ -15,6 +15,24 @@ document.querySelector('.btn').onclick = function () {
     }
 }
 
+const buttons = document.getElementsByClassName('btnTwo');
+
+const div3 = document.getElementById('divTwo');
 
 
+for(let a of buttons){
+a.addEventListener('click',function(){
+
+    const btnStyle = getComputedStyle(this);
+    const btnbackgroundColor = btnStyle['backgroundColor']
+
+    div3.style.backgroundColor = btnbackgroundColor;
+
+
+});
+
+
+}
+
+ 
 
