@@ -16,8 +16,8 @@
 
 
 .btn {
-    padding: 2rem;
-    width: 5rem;
+    padding: 3rem;
+    width: 10rem;
     height: 2rem;
     cursor: pointer;
     border: 2px solid black;
@@ -40,8 +40,8 @@
 
 
 .btnTwo {
-    padding: 2rem;
-    width: 5rem;
+    padding: 3rem;
+    width: 10rem;
     height: 2rem;
     cursor: pointer;
     border: 2px solid black;
@@ -92,8 +92,8 @@
 
 
 .btnThree {
-    padding: 2rem;
-    width: 5rem;
+    padding: 3rem;
+    width: 10rem;
     height: 2rem;
     cursor: pointer;
     border: 2px solid black;
